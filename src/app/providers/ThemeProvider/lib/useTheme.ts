@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { Theme, ThemeContext, LOCAL_STORAGE_LOCAL_THEME } from "./ThemeContext";
+import { LOCAL_STORAGE_LOCAL_THEME, Theme, ThemeContext } from "./ThemeContext";
 
 interface UseThemeResults {
   toggleTheme: () => void;
